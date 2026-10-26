@@ -1,0 +1,62 @@
+# Version control
+.git/
+.gitignore
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets, API keys, and local environment files
+.env
+.env.*
+!.env.example
+*.secrets.toml
+.streamlit/secrets.toml
+*service_account*.json
+*credentials*.json
+*.pem
+*.key
+*.token
+
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database and transient runtime caches
+data/qdrant_db/
+data/cache/
+data/evaluation/latest_results.json
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

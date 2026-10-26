@@ -1,0 +1,86 @@
+[
+  {
+    "question": "How many annual leave days do employees get?",
+    "expected_source": "02_XYZ_Leave_Policy.pdf",
+    "expected_section": "1. Active Entitlements",
+    "ground_truth": "Employees receive 18 working days of Annual Leave per year under HR-LEAVE-001 v2.0."
+  },
+  {
+    "question": "How many sick leave days are provided?",
+    "expected_source": "02_XYZ_Leave_Policy.pdf",
+    "expected_section": "1. Active Entitlements",
+    "ground_truth": "Employees receive 10 working days of Sick Leave under HR-LEAVE-001 v2.0."
+  },
+  {
+    "question": "How many annual leave days can be carried forward?",
+    "expected_source": "02_XYZ_Leave_Policy.pdf",
+    "expected_section": "4. Carry Forward",
+    "ground_truth": "Up to 12 unused Annual Leave days may be carried into the following leave year."
+  },
+  {
+    "question": "How early should planned leave normally be submitted?",
+    "expected_source": "02_XYZ_Leave_Policy.pdf",
+    "expected_section": "2. Planned Leave",
+    "ground_truth": "Planned leave should normally be submitted at least 3 working days before the start date."
+  },
+  {
+    "question": "How many days per week should eligible hybrid employees normally work from office?",
+    "expected_source": "03_XYZ_Remote_Work_Policy.pdf",
+    "expected_section": "2. Standard Hybrid Arrangement",
+    "ground_truth": "Eligible employees normally work from the office at least 2 days per week."
+  },
+  {
+    "question": "What are the core collaboration hours?",
+    "expected_source": "03_XYZ_Remote_Work_Policy.pdf",
+    "expected_section": "3. Core Hours",
+    "ground_truth": "Employees must be reachable during core collaboration hours from 10:00 AM to 5:00 PM IST."
+  },
+  {
+    "question": "When must expense claims normally be submitted?",
+    "expected_source": "05_XYZ_Travel_Expense_Policy.pdf",
+    "expected_section": "2. Submission Timelines",
+    "ground_truth": "Expense claims must be submitted within 30 calendar days."
+  },
+  {
+    "question": "What is the L1-L3 hotel cap?",
+    "expected_source": "05_XYZ_Travel_Expense_Policy.pdf",
+    "expected_section": "4. Lodging Limits",
+    "ground_truth": "The hotel cap for L1-L3 is ₹4,500 per night excluding applicable taxes."
+  },
+  {
+    "question": "Is MFA mandatory?",
+    "expected_source": "08_XYZ_IT_Security_Policy.pdf",
+    "expected_section": "3. Authentication & MFA",
+    "ground_truth": "Multi-factor authentication (MFA) is mandatory where supported."
+  },
+  {
+    "question": "How much learning support is available?",
+    "expected_source": "07_XYZ_Benefits_Policy.pdf",
+    "expected_section": "4. Professional Development",
+    "ground_truth": "Employees can receive up to ₹20,000 per year for approved learning and certifications."
+  },
+  {
+    "question": "What is the performance rating scale?",
+    "expected_source": "09_XYZ_Performance_Policy.pdf",
+    "expected_section": "2. Rating Scale",
+    "ground_truth": "Performance ratings use a five-level rating scale."
+  },
+  {
+    "question": "What happens to company assets during exit?",
+    "expected_source": "10_XYZ_Separation_Policy.pdf",
+    "expected_section": "3. Asset Return",
+    "ground_truth": "Company laptops, access cards, and assets must be returned by the final working day."
+  },
+  {
+    "question": "What was the old leave entitlement before April 2026?",
+    "expected_source": "ARCHIVED_XYZ_Leave_Policy_v1.0.pdf",
+    "expected_section": "Replacement",
+    "ground_truth": "Under version 1.0, employees received 15 working days of annual leave."
+  },
+  {
+    "question": "What is the CURRENT annual leave entitlement?",
+    "expected_source": "02_XYZ_Leave_Policy.pdf",
+    "expected_section": "1. Active Entitlements",
+    "ground_truth": "The current annual leave entitlement is 18 working days."
+  }
+]

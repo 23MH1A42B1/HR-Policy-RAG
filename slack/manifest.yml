@@ -1,0 +1,36 @@
+display_information:
+  name: XYZ HR Assistant
+  description: AI-powered HR Policy Assistant for XYZ Technologies.
+  background_color: "#4F46E5"
+features:
+  app_home:
+    home_tab_enabled: false
+    messages_tab_enabled: true
+    messages_tab_read_only_enabled: false
+  bot_user:
+    display_name: XYZ HR Assistant
+    always_online: true
+  slash_commands:
+    - command: /ask-hr
+      description: Ask an HR policy question (e.g., leave, remote work, expenses)
+      usage_hint: "[question]"
+      should_escape: false
+oauth_config:
+  scopes:
+    bot:
+      - app_mentions:read
+      - channels:history
+      - chat:write
+      - im:history
+      - im:read
+      - im:write
+      - commands
+      - users:read
+      - users:read.email
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+      - message.im
+  socket_mode_enabled: true
+  token_rotation_enabled: false
