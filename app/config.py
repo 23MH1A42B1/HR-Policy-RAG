@@ -284,4 +284,15 @@ class Settings(BaseSettings):
 @lru_cache(maxsize=1)
 def get_settings() -> Settings:
     """Return a cached singleton instance of application settings."""
+    try:
+        import os
+        import streamlit as st
+        if hasattr(st, "secrets"):
+            for k, v in st.secrets.items():
+                if isinstance(v, (str, int, float, bool)):
+                    k_upper = k.upper()
+                    if k_upper not in os.environ:
+                        os.environ[k_upper] = str(v)
+    except Exception:
+        pass
     return Settings()

@@ -48,14 +48,7 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Data directories (keep directory structure with .gitkeep)
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-data/evaluation/*
-!data/evaluation/.gitkeep
-!data/evaluation/questions.json
+# Data directories (exclude transient databases & caches)
 data/qdrant_db/
 data/cache/
 *.log

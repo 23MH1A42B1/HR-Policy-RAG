@@ -1,0 +1,105 @@
+{
+  "documents_found": 11,
+  "documents_processed": 11,
+  "failed_documents": 0,
+  "active_policies": 10,
+  "archived_policies": 1,
+  "pages_processed": 12,
+  "chunks_created": 87,
+  "chunk_size": 600,
+  "chunk_overlap": 100,
+  "embedding_provider": "FastEmbedService",
+  "embedding_dimension": 384,
+  "qdrant_status": "Indexed (87 vectors)",
+  "vectors_upserted": 87,
+  "document_breakdown": {
+    "01_XYZ_Employee_Handbook.pdf": {
+      "pages": 2,
+      "chunks": 12,
+      "policy_id": "HR-HANDBOOK-001",
+      "policy_type": "handbook",
+      "version": "2.0",
+      "status": "active"
+    },
+    "02_XYZ_Leave_Policy.pdf": {
+      "pages": 1,
+      "chunks": 8,
+      "policy_id": "HR-LEAVE-001",
+      "policy_type": "leave",
+      "version": "2.0",
+      "status": "active"
+    },
+    "03_XYZ_Remote_Work_Policy.pdf": {
+      "pages": 1,
+      "chunks": 8,
+      "policy_id": "HR-WFH-001",
+      "policy_type": "remote_work",
+      "version": "1.0",
+      "status": "active"
+    },
+    "04_XYZ_Attendance_Policy.pdf": {
+      "pages": 1,
+      "chunks": 7,
+      "policy_id": "HR-ATT-001",
+      "policy_type": "attendance",
+      "version": "1.0",
+      "status": "active"
+    },
+    "05_XYZ_Travel_Expense_Policy.pdf": {
+      "pages": 1,
+      "chunks": 7,
+      "policy_id": "FIN-EXP-001",
+      "policy_type": "expense",
+      "version": "1.0",
+      "status": "active"
+    },
+    "06_XYZ_Code_of_Conduct.pdf": {
+      "pages": 1,
+      "chunks": 8,
+      "policy_id": "HR-CONDUCT-001",
+      "policy_type": "conduct",
+      "version": "1.0",
+      "status": "active"
+    },
+    "07_XYZ_Benefits_Policy.pdf": {
+      "pages": 1,
+      "chunks": 8,
+      "policy_id": "HR-BEN-001",
+      "policy_type": "benefits",
+      "version": "1.0",
+      "status": "active"
+    },
+    "08_XYZ_IT_Security_Policy.pdf": {
+      "pages": 1,
+      "chunks": 8,
+      "policy_id": "IT-SEC-001",
+      "policy_type": "security",
+      "version": "1.0",
+      "status": "active"
+    },
+    "09_XYZ_Performance_Policy.pdf": {
+      "pages": 1,
+      "chunks": 7,
+      "policy_id": "HR-PERF-001",
+      "policy_type": "performance",
+      "version": "1.0",
+      "status": "active"
+    },
+    "10_XYZ_Separation_Policy.pdf": {
+      "pages": 1,
+      "chunks": 8,
+      "policy_id": "HR-EXIT-001",
+      "policy_type": "separation",
+      "version": "1.0",
+      "status": "active"
+    },
+    "ARCHIVED_XYZ_Leave_Policy_v1.0.pdf": {
+      "pages": 1,
+      "chunks": 6,
+      "policy_id": "HR-LEAVE-001",
+      "policy_type": "leave",
+      "version": "1.0",
+      "status": "archived"
+    }
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "timestamp": 1791130055.647556,
+  "dataset": "C:\\pdf\\HR Policy Rag\\data\\evaluation\\questions.json",
+  "summary": {
+    "sample_count": 15,
+    "mean_retrieval_recall": 1.0,
+    "mean_retrieval_precision": 0.6267,
+    "mean_context_relevance": 0.5128,
+    "mean_answer_relevance": 0.353,
+    "mean_faithfulness": 0.6058,
+    "mean_groundedness": 0.6667,
+    "mean_citation_accuracy": 1.0,
+    "composite_score": 0.7147
+  },
+  "detailed_results": [
+    {
+      "index": 1,
+      "question": "How many annual leave days do employees receive?",
+      "expected_source": "leave_policy.pdf",
+      "retrieved_documents": [
+        "leave_policy.pdf",
+        "leave_policy.pdf",
+        "leave_policy.pdf"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 459.3,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.6,
+        "context_relevance": 0.6166666666666666,
+        "answer_relevance": 1.0,
+        "faithfulness": 0.8260869565217391,
+        "groundedness": 1.0,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.8564
+      }
+    },
+    {
+      "index": 2,
+      "question": "What are the carryover rules for unused annual leave?",
+      "expected_source": "leave_policy.pdf",
+      "retrieved_documents": [
+        "leave_policy.pdf",
+        "leave_policy.pdf",
+        "leave_policy.pdf"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 25.1,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 1.0,
+        "context_relevance": 0.6559999999999999,
+        "answer_relevance": 0.48,
+        "faithfulness": 0.6086956521739131,
+        "groundedness": 0.5,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.8117
+      }
+    },
+    {
+      "index": 3,
+      "question": "How many paid sick leave days do employees get annually?",
+      "expected_source": "leave_policy.pdf",
+      "retrieved_documents": [
+        "leave_policy.pdf",
+        "leave_policy.pdf",
+        "leave_policy.pdf"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 17.3,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.8,
+        "context_relevance": 0.6449999999999999,
+        "answer_relevance": 0.75,
+        "faithfulness": 0.6956521739130435,
+        "groundedness": 0.5,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.8336
+      }
+    },
+    {
+      "index": 4,
+      "question": "How many weeks of paid parental leave are provided for primary caregivers?",
+      "expected_source": "leave_policy.pdf",
+      "retrieved_documents": [
+        "leave_policy.pdf",
+        "leave_policy.pdf",
+        "leave_policy.pdf"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 19.3,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.8,
+        "context_relevance": 0.6074999999999999,
+        "answer_relevance": 0.3,
+        "faithfulness": 0.6086956521739131,
+        "groundedness": 0.5,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.7474
+      }
+    },
+    {
+      "index": 5,
+      "question": "How many days of bereavement leave are granted for immediate family members?",
+      "expected_source": "leave_policy.pdf",
+      "retrieved_documents": [
+        "leave_policy.pdf",
+        "leave_policy.pdf",
+        "leave_policy.pdf"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 19.8,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.8,
+        "context_relevance": 0.43999999999999995,
+        "answer_relevance": 0.3,
+        "faithfulness": 0.6086956521739131,
+        "groundedness": 0.5,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.7223
+      }
+    },
+    {
+      "index": 6,
+      "question": "What is the one-time home office equipment stipend for remote employees?",
+      "expected_source": "remote_work_policy.docx",
+      "retrieved_documents": [
+        "remote_work_policy.docx",
+        "remote_work_policy.docx",
+        "remote_work_policy.docx"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 19.2,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.8,
+        "context_relevance": 0.6028571428571429,
+        "answer_relevance": 1.0,
+        "faithfulness": 0.6956521739130435,
+        "groundedness": 1.0,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.8648
+      }
+    },
+    {
+      "index": 7,
+      "question": "What are the core collaboration hours for remote and hybrid workers?",
+      "expected_source": "remote_work_policy.docx",
+      "retrieved_documents": [
+        "remote_work_policy.docx",
+        "remote_work_policy.docx",
+        "remote_work_policy.docx"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 21.6,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.8,
+        "context_relevance": 0.6933333333333334,
+        "answer_relevance": 0.19999999999999998,
+        "faithfulness": 0.6086956521739131,
+        "groundedness": 1.0,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.7453
+      }
+    },
+    {
+      "index": 8,
+      "question": "How much is the recurring monthly home internet allowance?",
+      "expected_source": "remote_work_policy.docx",
+      "retrieved_documents": [
+        "remote_work_policy.docx",
+        "expense_policy.pptx",
+        "leave_policy.pdf"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 17.8,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.4,
+        "context_relevance": 0.6633333333333333,
+        "answer_relevance": 0.19999999999999998,
+        "faithfulness": 0.8260869565217391,
+        "groundedness": 1.0,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.7134
+      }
+    },
+    {
+      "index": 9,
+      "question": "What are the security rules regarding VPN and public Wi-Fi for remote staff?",
+      "expected_source": "remote_work_policy.docx",
+      "retrieved_documents": [
+        "remote_work_policy.docx",
+        "expense_policy.pptx",
+        "remote_work_policy.docx"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 22.5,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.4,
+        "context_relevance": 0.585,
+        "answer_relevance": 0.15,
+        "faithfulness": 0.5652173913043478,
+        "groundedness": 1.0,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.655
+      }
+    },
+    {
+      "index": 10,
+      "question": "What is the maximum nightly hotel allowance for domestic business travel?",
+      "expected_source": "expense_policy.pptx",
+      "retrieved_documents": [
+        "expense_policy.pptx",
+        "expense_policy.pptx",
+        "leave_policy.pdf"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 18.3,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.6,
+        "context_relevance": 0.39428571428571424,
+        "answer_relevance": 0.1714285714285714,
+        "faithfulness": 0.43478260869565216,
+        "groundedness": 0.5,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.6401
+      }
+    },
+    {
+      "index": 11,
+      "question": "What are the daily per diem meal allowances for business trips?",
+      "expected_source": "expense_policy.pptx",
+      "retrieved_documents": [
+        "expense_policy.pptx",
+        "leave_policy.pdf",
+        "leave_policy.pdf"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 22.3,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.6,
+        "context_relevance": 0.26857142857142857,
+        "answer_relevance": 0.3428571428571428,
+        "faithfulness": 0.5217391304347826,
+        "groundedness": 0.5,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.66
+      }
+    },
+    {
+      "index": 12,
+      "question": "What is the deadline for submitting travel expense reports?",
+      "expected_source": "expense_policy.pptx",
+      "retrieved_documents": [
+        "expense_policy.pptx",
+        "expense_policy.pptx",
+        "expense_policy.pptx"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 20.0,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 1.0,
+        "context_relevance": 0.33999999999999997,
+        "answer_relevance": 0.0,
+        "faithfulness": 0.21739130434782608,
+        "groundedness": 0.0,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.6336
+      }
+    },
+    {
+      "index": 13,
+      "question": "What are the standard weekly working hours for full-time employees?",
+      "expected_source": "attendance_policy.pdf",
+      "retrieved_documents": [
+        "attendance_policy.pdf",
+        "remote_work_policy.docx",
+        "leave_policy.pdf"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 19.5,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.2,
+        "context_relevance": 0.45999999999999996,
+        "answer_relevance": 0.39999999999999997,
+        "faithfulness": 0.782608695652174,
+        "groundedness": 1.0,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.6764
+      }
+    },
+    {
+      "index": 14,
+      "question": "How is overtime compensation calculated for non-exempt workers?",
+      "expected_source": "attendance_policy.pdf",
+      "retrieved_documents": [
+        "attendance_policy.pdf",
+        "expense_policy.pptx",
+        "attendance_policy.pdf"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 17.4,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.4,
+        "context_relevance": 0.46799999999999997,
+        "answer_relevance": 0.0,
+        "faithfulness": 0.5217391304347826,
+        "groundedness": 0.5,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.6085
+      }
+    },
+    {
+      "index": 15,
+      "question": "How much advance notice is required for an unplanned absence or emergency?",
+      "expected_source": "attendance_policy.pdf",
+      "retrieved_documents": [
+        "attendance_policy.pdf",
+        "leave_policy.pdf",
+        "expense_policy.pptx"
+      ],
+      "model_used": "benchmark-eval-llm",
+      "duration_ms": 25.0,
+      "metrics": {
+        "retrieval_recall": 1.0,
+        "retrieval_precision": 0.2,
+        "context_relevance": 0.2514285714285714,
+        "answer_relevance": 0.0,
+        "faithfulness": 0.5652173913043478,
+        "groundedness": 0.5,
+        "citation_accuracy": 1.0,
+        "composite_score": 0.5525
+      }
+    }
+  ]
+}
