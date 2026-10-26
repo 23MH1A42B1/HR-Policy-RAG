@@ -65,9 +65,34 @@ def inject_custom_styles(is_authenticated: bool = True) -> None:
             max-width: 1050px !important;
         }
 
+        /* Hide Streamlit Community Cloud top-right header buttons (Fork, GitHub, Menu, Deploy) */
+        #MainMenu { visibility: hidden !important; display: none !important; }
+        footer { visibility: hidden !important; display: none !important; }
+        [data-testid="stToolbar"] { visibility: hidden !important; display: none !important; }
+        [data-testid="stDecoration"] { visibility: hidden !important; display: none !important; }
+        [data-testid="stStatusWidget"] { visibility: hidden !important; display: none !important; }
+        .stAppDeployButton { visibility: hidden !important; display: none !important; }
+        [data-testid="manage-app-button"] { visibility: hidden !important; display: none !important; }
+
         header[data-testid="stHeader"] {
             background: transparent !important;
-            height: 2rem !important;
+            height: 0px !important;
+        }
+
+        header[data-testid="stHeader"] [data-testid="stToolbarActions"],
+        header[data-testid="stHeader"] .stAppDeployButton,
+        header[data-testid="stHeader"] button,
+        header[data-testid="stHeader"] a {
+            display: none !important;
+            visibility: hidden !important;
+        }
+
+        /* Ensure sidebar open/collapse toggle arrow remains visible */
+        [data-testid="collapsedControl"],
+        [data-testid="collapsedControl"] button,
+        [data-testid="stSidebarCollapseButton"] button {
+            display: flex !important;
+            visibility: visible !important;
         }
 
         /* Header styling */
